@@ -1,0 +1,9 @@
+git+https://github.com/lucasb-eyer/pydensecrf@0d53acb
+gradio==3.16.2
+numpy==1.23.5
+opencv-python==4.6.0.66
+pycocotools==2.0.6
+scikit-image==0.19.2
+torch==1.13.1
+torchvision==0.14.1
+tqdm==4.64.1

@@ -1,6 +1,6 @@
 ---
 title: MaskCut
-emoji: 💩
+emoji: 🌍
 colorFrom: pink
 colorTo: pink
 sdk: gradio
