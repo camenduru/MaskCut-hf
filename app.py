@@ -35,11 +35,11 @@ demo = gr.Interface(
         gr.Slider(label='The maximum number of pseudo-masks per image',
                   minimum=1,
                   maximum=20,
-                  value=3,
+                  value=6,
                   step=1),
     ],
     outputs=gr.Image(label='Result', type='numpy'),
-    examples=[[path.as_posix(), 0.15, 3] for path in paths],
+    examples=[[path.as_posix(), 0.15, 6] for path in paths],
     title=TITLE,
     description=DESCRIPTION)
 demo.queue().launch()
